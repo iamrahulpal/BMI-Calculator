@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BMI Calculator</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="head">
+            BMI Calculater
+        </div>
+        <div class="input-weight">
+            <input type="number" placeholder="Weight in kg" id="inputWeight">
+
+        </div>
+        <div class="input-height">
+            <input type="number" placeholder="Height in ft" id="inputHeight">
+
+        </div>
+        <div>
+            <button onclick="bmiValue()">Calculate</button>
+        </div>
+        <div class="output-bmi">
+           <div>
+               <span id="result">
+                   --
+               </span>
+                <p>
+                    Healthy BMI range: 19 to 25
+                </p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
